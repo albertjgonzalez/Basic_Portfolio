@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(../images/memphis-colorful.png);
+  background-image: url(../images/white_paperboard.png);
   height: 100%;
 }
 
@@ -47,8 +47,11 @@ section.footer {
 }
 
 div.name {
-  background-color: aquamarine;
+  background-color: rgb(182, 127, 255);
   color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 5%;
 }
 
 section.content {
