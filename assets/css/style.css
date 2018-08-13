@@ -1,64 +1,67 @@
-
-body {
-  background-image: url(../images/white_paperboard.png);
-  height: 100%;
+body{
+  background-image: url('../images/white_paperboard.png')
 }
-
-section.header{
+header{
+  border-bottom: solid 2px lightgrey;
   background-color: white;
-  border-bottom: 2px solid black;
-}
-
-  div.container{
-    width: 960px;
-    margin: auto;
-  }
-
-section div.header {
-  display: inline-block;
-}
-
-section {
   width: 100%;
-  margin: auto; 
+}
+.topcontainer{
+width: 960px;
+margin: auto;
 }
 
-.navBar{
-  float: right;
+#name{
+  background-color: rgb(197, 150, 209);
+  padding: 5px;
+  float: left;
 }
 
-ul li {
-  display: inline-block;
+#navBar{
+float: right;
 }
 
-ul a {
-  color: grey;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-section.footer p {
+ul li{
+  display: inline;
+}
+
+a{
+  color: lightgray;
+}
+
+section.content{
+  background-color: white;
+  margin: auto 10%;
+  padding: 10px;
+
+}
+
+section.footer{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: darkgrey;
+  border-top: solid rgb(197, 150, 209) 10px;
+}
+
+section.footer p{
   text-align: center;
 }
 
-section.footer {
-  background-color: white;
-  position: fixed;
-  bottom:0;
-  border-top: 2px solid black;
+section.content p{
+  border-top: solid gray 3px;
+  border-width: 75%;
 }
 
-div.name {
-  background-color: rgb(182, 127, 255);
-  color: white;
-  padding-left: 2%;
-  padding-right: 2%;
-  border-radius: 5%;
+img{
+  width: 300px;
+  height: 250px;
+  margin: 5px;
 }
-
-section.content {
-  width: 960px;
-  background-color: white;
-  height: 100%;
-  border: 2px solid black;
-  margin-top: 30px;
-}
-
