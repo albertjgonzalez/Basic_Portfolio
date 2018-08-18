@@ -60,6 +60,7 @@ section.footer{
   bottom: 0;
   background-color: darkgrey;
   border-top: solid rgb(197, 150, 209) 10px;
+  padding-bottom: 10px;
 }
 
 section.footer p{
@@ -67,7 +68,7 @@ section.footer p{
 }
 
 section.content div.content{
-  border-top: solid gray 3px;
+  border-top: solid lightgray 3px;
   border-width: 75%;
 }
 
@@ -105,4 +106,57 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#tech1{
+  background-image: url(../images/tech1.jpg);
+  height: 155px;
+  width: 230px;
+  float: left;
+  padding: 0%;
+  margin: 10px;
+}
+#tech2{
+  background-image: url(../images/tech2.jpg);
+  height: 155px;
+  width: 230px;
+  float: left;
+  padding: 0%;
+  margin: 10px;
+}
+#tech3{
+  background-image: url(../images/tech3.jpg);
+  height: 155px;
+  width: 230px;
+  float: left;
+  padding: 0%;
+  margin: 10px;
+}
+#tech4{
+  background-image: url(../images/tech4.jpg);
+  height: 155px;
+  width: 230px;
+  float: left;
+  padding: 0%;
+  margin: 10px;
+  margin-left: 20px;
+}
+#tech5{
+  background-image: url(../images/tech5.jpg);
+  height: 155px;
+  width: 230px;
+  float: left;
+  padding: 0%;
+  margin: 10px;
+}
+.banners{
+  background-color: rgb(197, 150, 209);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: -110px;
+}
+
+div.banners a{
+  color: rgb(51, 51, 51);
 }
